@@ -1,0 +1,153 @@
+:root
+{
+    --fuenteHeading: 'PT Sans',sans-serif;
+    --fuenteParrafos: 'Open Sans',sans-serif;
+    
+
+    --primario: #784D3C;
+    --gris:#e1e1e1;
+    --blanco: #ffffff;
+    --negro: #000000;
+
+
+}
+
+html
+{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*:before, *::after
+{
+    box-sizing: inherit;
+
+}
+
+body
+{
+    /* aqui vamos a cambiar la tipografia a como nosotros queramos*/
+    
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+
+.header
+{
+    background-color: white;
+    height: 9rem;
+    max-width: 100rem;
+    
+}
+
+
+.Navegacion
+{
+   
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center;
+    max-width: 120rem;
+    width: 100%;
+
+    
+
+
+}
+
+.navegacion_principal
+{
+    
+    color:white;
+}
+
+.Logotipo_ballet
+{
+   
+    padding: 2rem 0rem;
+    
+}
+
+.box
+{
+    width: 180px;
+    height: 120px;
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+
+  
+img {
+    height: 100%;
+    width: 100%;
+  }
+  
+
+.cover {
+    object-fit: cover;
+  }
+
+.Navv
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
+    
+}
+
+#listamenu > li { 
+    position: relative; 
+    display: inline-block; 
+    height: 35px; 
+    padding: 15px 10px 0px 10px; 
+    margin-right: 5px; 
+   } 
+
+#listamenu li > ul { 
+    display: none; 
+    position: absolute; 
+    top: 50px; 
+    left: 0px; 
+    background-color: white; 
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7); 
+    border-radius: 0px 0px 5px 5px; 
+    list-style: none; 
+    z-index: 1000; 
+   } 
+
+#listamenu li > ul > li { 
+    width: 120px; 
+    height: 45px; 
+    padding-top: 15px; 
+    padding-left: 10px; 
+   } 
+
+#listamenu li:hover ul { 
+    display: block; 
+   } 
+
+#listamenu a { 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black; 
+    text-decoration: none; 
+    font-size: 2rem;
+   } 
+
+.img-responsive
+{
+    width: 142rem;
+    height: 60rem;
+
+}
+
+
+
+.contain {
+    object-fit: contain;
+  }
+
+
+
