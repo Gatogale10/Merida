@@ -35,9 +35,11 @@ body
 
 .header
 {
-    background-color: white;
+    background-color:whitesmoke;
     height: 9rem;
-    max-width: 100rem;
+    width: auto;
+    max-width: 1000rem;
+
     
 }
 
@@ -49,7 +51,7 @@ body
     justify-content:space-evenly;
     align-content: center;
     max-width: 120rem;
-    width: 100%;
+    width:auto;
 
     
 
@@ -60,6 +62,7 @@ body
 {
     
     color:white;
+    
 }
 
 .Logotipo_ballet
@@ -81,7 +84,7 @@ body
 img {
     height: 100%;
     width: 100%;
-  }
+}
   
 
 .cover {
