@@ -73,6 +73,7 @@ body
     line-height: 2;
 }
 
+/*----------------------------GLOBALES---------------------------*/
 
 .header
 {
@@ -80,7 +81,6 @@ body
     height: 9rem;
     width: auto;
     max-width: 1000rem;
-
     
 }
 
@@ -94,7 +94,6 @@ body
     max-width: 120rem;
     width:auto;
 
-    
 
 
 }
@@ -126,7 +125,23 @@ img {
     height: 100%;
     width: 100%;
 }
-  
+
+/**Utilidades**/
+.no-margin
+{
+    margin:0;
+}
+
+.no-padding 
+{
+    padding: 0;
+}
+
+.centrar-texto
+{
+    text-align: center;
+}
+/*-------------Utilidades*/ 
 
 .cover {
     object-fit: cover;
@@ -188,10 +203,35 @@ img {
 }
 
 
-
 .contain {
     object-fit: contain;
-  }
+}
+
+.estilo-portada
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenedor
+{
+
+    width: min(90%, 120rem);
+    margin: 0 auto;
+
+}
+
+.contenedor-principal
+{
+    display: grid;
+    /*-----Como se va a acomodar nuestra estructura----------*/
+    /*      En este caso se acomoda en columnas el grid se acomoda en un template de dos columnas*/
+    /*       Que en este caso la primera columa ocupara dos fraciones del total y la segunda 1 fraccion */
+    grid-template-columns: 2fr 1fr;
+
+}
+
+
+
 
 
 
