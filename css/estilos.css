@@ -75,7 +75,7 @@ body
     height: 9rem;
     width: auto;
     max-width: 1000rem;
-    border-bottom:0.5rem solid var(--negro);
+    
     
     
 }
@@ -194,8 +194,9 @@ img {
 .img-responsive
 {
     width: auto;
-    height: 66rem;
+    height: 64rem;
     border-bottom:0.2rem solid var(--negro);
+    border-top:0.2rem solid var(--negro);
     
     
 }
@@ -207,7 +208,11 @@ img {
 
 .estilo-portada
 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 50px;
+    font-weight: 700;
+    
+
 }
 
 
@@ -275,7 +280,7 @@ img {
 
 }
 
-#Frase_inicio .margen-texto .centrar-texto .texto
+.texto
 {
     text-align: center;
     font-family: 'Cormorant', serif;
@@ -307,6 +312,7 @@ img {
     del center*/
     padding: 2rem;
     border-radius: 2rem;
+    
 }
 
 .formulario fieldset
@@ -370,7 +376,7 @@ img {
     display: block;
 
 
-    
+
 }
 
 /*
@@ -423,6 +429,11 @@ img {
     display: flex;
     
     
+}
+
+.formm
+{
+    padding-bottom: 2rem;
 }
 
 
