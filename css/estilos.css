@@ -239,13 +239,19 @@ img {
     padding: 20px;
 }
 
-.contenido-principal .bloques .columna .texto-padding .texto 
+.contenido-principal .bloques .columna .texto-padding .texto .descripcion
 {
     text-align: center;
     font-family: 'Cormorant', serif;
     font-size: 28px;
     font-weight: 500;
 
+}
+
+.servicio{
+    font-family: 'Cormorant', serif;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 

@@ -21,25 +21,78 @@
 
 .contenido_nosotros p{
     text-align: center;
+    font-family: 'Cormorant', serif;
+    font-size: 25px;
 
 }
+
+.imagen_nosotros{
+
+    height: 55rem;
+    width: auto
+}
+
+.centrar-img
+{
+    display: flex;
+    justify-content: center;
+}
+
+
 .mision_vision{ 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     width: 1000px;
-    padding: 10px 0 0 300px;
+    padding: 50px 0 50px 300px;
+    
 }
 
 .mision {
-    background-color: aliceblue;
+    background-color:#A994AA;
     font-family: 'Cormorant', serif;
+    text-align: center;
+    border-radius: 0px 0px 14px 98px;
+    border: 3px solid #8E809E;
+}
+
+.p_5{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.p_6{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.p_7{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.p_8{
+    font-weight: 500;
+    font-size: 25px;
 }
 
 .vision {
-    background-color: aliceblue;
+    background-color: #A994AA;
     font-family: 'Cormorant', serif;
+    text-align: center;
+    border-radius: 0px 0px 98px 14px;
+    border: 3px solid #8E809E;
+}
+
+.nuestro_equipo h2{
+    font-size: 30px;
+    font-family:'Cormorant', serif;
+    text-align: center;
+}
+
+.imagen_equipo{
+    padding-bottom:70px ;
 }
 
 .wrapper {
@@ -49,6 +102,8 @@
     grid-auto-rows: minmax(100px, auto);
     width: 1000px;
     padding: 10px 0 0 300px;
+    
+    
         
   }
   .one {
@@ -105,8 +160,19 @@
 
 
 
-/*------------------------------------Peinados.html----------------- */
+/*------------------------------------Servicios.html----------------- */
+.servicio{
+    font-family: 'Cormorant', serif;
+    font-size: 30px;
+    font-weight: 600;
+}
 
+.descripcion{
+    text-align: center;
+    font-family: 'Cormorant', serif;
+    font-size: 28px;
+    font-weight: 500;
+}
 
 
 
