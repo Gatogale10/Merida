@@ -75,8 +75,8 @@ body
     height: 9rem;
     width: auto;
     max-width: 1000rem;
-    border-bottom:0.2rem double var(--negro);
-    margin-bottom: 0.1rem;
+    border-bottom:0.5rem solid var(--negro);
+    
     
 }
 
@@ -194,7 +194,9 @@ img {
 .img-responsive
 {
     width: auto;
-    height: 56rem;
+    height: 66rem;
+    border-bottom:0.2rem solid var(--negro);
+    
     
 }
 
@@ -284,6 +286,140 @@ img {
     margin-bottom: 0;
     
 }
+
+
+
+/*-----------------------------Formulario-------------------*/
+
+.formulario
+{
+    background-color: var(--gris);
+    width: min(60rem,100%);
+    margin:0 auto;
+    /*Usarlo cuando el padre no 
+    tenga un display flex en vez 
+    del center*/
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.formulario fieldset
+{
+    border: none;
+
+}
+ 
+.formulario legend
+{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--primario);
+
+
+}
+
+@media (min-width: 758px) 
+{
+    .contenedor-campos
+    {
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    column-gap: 2rem;
+    grid-template-rows: auto auto 20rem;
+
+    }
+
+    .campo:nth-child(3),.campo:nth-child(4)
+    {
+        grid-column: 1 /3;
+
+    }
+
+  
+}
+
+.contenedor-campos
+{
+    display: grid;
+
+
+}
+
+.campo
+{
+    margin-bottom: 1rem;
+
+
+
+}
+
+.campo label
+{
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+
+
+    
+}
+
+/*
+.campo input[type="text"],
+.campo input[type="tel"]
+{
+    background-color: red;
+}
+*/
+
+.campo textarea
+{
+    height: 20rem;
+
+}
+
+.input-text
+{
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+
+}
+
+/**footer*/
+
+.footer
+{
+    text-align: center;
+    background-color: #000000;
+
+}
+
+
+.contenedor-footer
+{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    
+    
+
+
+}
+
+.contenedor-footer2
+{
+    padding-top: 2rem;
+    display: flex;
+    
+    
+}
+
+
 
 
 
