@@ -12,6 +12,93 @@
 
 /*------------------------------------Nosotros.html----------------- */
 
+.contenido_nosotros h1{
+
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.contenido_nosotros p{
+    text-align: center;
+
+}
+.mision_vision{ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    width: 1000px;
+    padding: 10px 0 0 300px;
+}
+
+.mision {
+    background-color: aliceblue;
+    font-family: 'Cormorant', serif;
+}
+
+.vision {
+    background-color: aliceblue;
+    font-family: 'Cormorant', serif;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    width: 1000px;
+    padding: 10px 0 0 300px;
+        
+  }
+  .one {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    background-color:#BA7CCC;
+    font-family: 'Frank Ruhl Libre', serif;
+    padding: 0 0 0 15px;
+    border-radius: 15px 50px 30px;
+  }
+  .two {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    background-color: white ;
+    font-family: 'Frank Ruhl Libre', serif;
+    padding: 0 0 0 15px;
+  }
+  .three {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: #B58BC1;
+    padding: 0 0 0 15px;
+    border-radius: 15px 50px 30px;
+    
+  }
+
+.p_1
+{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight:500;
+    font-size: 18px;
+
+}
+
+.p_2
+{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 15px;
+}
+
+.p_3{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight:500;
+    font-size: 18px; 
+}
+
+.p_4{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 15px;
+}
 
 
 
