@@ -71,7 +71,7 @@ body
 
 .header
 {
-    background-color:whitesmoke;
+    background-color:white;
     height: 9rem;
     width: auto;
     max-width: 1000rem;
@@ -152,11 +152,16 @@ img {
     align-items: baseline;
     
 }
+.Navv a:hover
+{
+    background-color: rgb(213, 210, 210);
+}
+
 
 #listamenu > li { 
     position: relative; 
     display: inline-block; 
-    height: 35px; 
+    height: 60px; 
     padding: 15px 10px 0px 10px; 
     margin-right: 5px; 
    } 
@@ -194,9 +199,10 @@ img {
 .img-responsive
 {
     width: auto;
-    height: 64rem;
+    height: 66rem;
+    padding-top: 2rem;
     border-bottom:0.2rem solid var(--negro);
-    border-top:0.2rem solid var(--negro);
+    
     
     
 }
@@ -434,6 +440,11 @@ img {
 .formm
 {
     padding-bottom: 2rem;
+}
+
+.hola
+{
+    height: 100px;
 }
 
 
