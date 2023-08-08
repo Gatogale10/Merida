@@ -8,6 +8,7 @@
     --gris:#e1e1e1;
     --blanco: #ffffff;
     --negro: #000000;
+    --rosalinea:#C894A2;
 
 
 }
@@ -72,10 +73,9 @@ body
 .header
 {
     background-color:white;
-    height: 9rem;
+    height: 12rem;
     width: auto;
     max-width: 1000rem;
-    
     
     
 }
@@ -89,6 +89,7 @@ body
     align-content: center;
     max-width: 120rem;
     width:auto;
+    
     
 
 }
@@ -109,9 +110,12 @@ body
 
 .box
 {
-    width: 180px;
-    height: 120px;
+    width: 230px;
+    height: 150px;
     padding: 0rem 0rem 2rem 0rem;
+    background-color: transparent;
+    
+    
 }
 
 
@@ -150,11 +154,13 @@ img {
     align-content: space-around;
     flex-wrap: wrap;
     align-items: baseline;
+   
+
     
 }
 .Navv a:hover
 {
-    background-color: rgb(213, 210, 210);
+    background-color: #EDB1C1;
 }
 
 
@@ -199,13 +205,50 @@ img {
 .img-responsive
 {
     width: auto;
-    height: 66rem;
-    padding-top: 2rem;
-    border-bottom:0.2rem solid var(--negro);
-    
+    height: 62rem;
+    border-bottom:0.4rem solid var(--rosalinea);
     
     
 }
+
+#dinamico
+{
+    top: 0;
+    position: fixed;
+    -webkit-transform: translate3d(0, 0, 0);
+    z-index: 111;
+    height: 120px;
+    width: 10000px;
+    -webkit-animation-name: fade-in-down;
+    animation-name: fade-in-down;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    background-color: rgba(255, 255, 255, 0.94);
+    border-bottom: 0.2rem solid var(--rosalinea);
+
+}
+
+.centrar-imga
+{
+    background-color: #C894A2;
+   
+    
+}
+
+.borde-img-portada
+{
+    position: relative;
+    height: 112px;
+    background-color: rgba(255, 255, 255, 0.94);
+    box-shadow: 0px -200px 159px 120px rgba(250,223,250,1);
+   
+    
+
+}
+
+
 
 
 .contain {
