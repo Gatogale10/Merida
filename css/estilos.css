@@ -1,9 +1,7 @@
 :root
 {
-    --fuenteHeading: 'PT Sans',sans-serif;
+    --fuenteHeading: 'Cormorant Infant', serif;;
     --fuenteParrafos: 'Open Sans',sans-serif;
-    
-
     --primario: #784D3C;
     --gris:#e1e1e1;
     --blanco: #ffffff;
@@ -60,6 +58,7 @@ h4{
 
 
 
+
 body
 {
     /* aqui vamos a cambiar la tipografia a como nosotros queramos*/
@@ -67,6 +66,8 @@ body
     font-size: 1.6rem;
     line-height: 2;
 }
+
+
 
 /*----------------------------GLOBALES---------------------------*/
 
@@ -185,10 +186,11 @@ img {
    } 
 
 #listamenu li > ul > li { 
-    width: 120px; 
-    height: 45px; 
+    width: 150px; 
+    height: 60px; 
     padding-top: 15px; 
-    padding-left: 10px; 
+    padding-left: 1px; 
+    padding-right: 15px;
    } 
 
 #listamenu li:hover ul { 
@@ -205,8 +207,9 @@ img {
 .img-responsive
 {
     width: auto;
-    height: 62rem;
-    border-bottom:0.4rem solid var(--rosalinea);
+    height: auto;
+    border-bottom:0.2rem solid var(--negro);
+    height: 430.37px;
     
     
 }
@@ -230,11 +233,7 @@ img {
 
 }
 
-.centrar-imga
-{
-    background-color: #C894A2;
 
-}
 
 .borde-img-portada
 {
@@ -243,11 +242,12 @@ img {
     background-color: rgba(255, 255, 255, 0.94);
     box-shadow: 0px -200px 159px 100px rgba(250,224,250,0.8);
    
-    
-
 }
 
-
+.contenido_nosotros h2
+{
+    font-size: 4rem;
+}
 
 
 .contain {
@@ -259,7 +259,6 @@ img {
     font-family: 'Cormorant Infant', serif;
     font-size: 50px;
     font-weight: 700;
-    
 
 }
 

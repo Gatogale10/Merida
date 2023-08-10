@@ -12,6 +12,8 @@
 
 /*------------------------------------Nosotros.html----------------- */
 
+
+
 .contenido_nosotros h1{
 
     font-family: "Dancing Script", cursive;
@@ -29,7 +31,8 @@
 .imagen_nosotros{
 
     height: 55rem;
-    width: auto
+    width: auto;
+    border-image: 1rem 1rem 1rem 1rem;
 }
 
 .centrar-img
